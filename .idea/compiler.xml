@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-zuul" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="shop-server-9091" />
+        <module name="user-server-9090" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-t" target="1.8" />
+      <module name="server-zuul" target="1.8" />
+      <module name="shop-server-9091" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="user-server-9090" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-t" options="-parameters" />
+      <module name="server-zuul" options="-parameters" />
+      <module name="shop-server-9091" options="-parameters" />
+      <module name="user-server-9090" options="-parameters" />
+    </option>
+  </component>
+</project>
